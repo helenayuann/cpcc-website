@@ -29,6 +29,12 @@ const Navbar = () => {
                   Research
                 </Link>
                 <Link
+                  to="/people"
+                  className="px-3 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition duration-300"
+                >
+                  People
+                </Link>
+                <Link
                   to="/about"
                   className="px-3 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition duration-300"
                 >
