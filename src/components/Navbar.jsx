@@ -29,10 +29,10 @@ const Navbar = () => {
                   About
                 </Link>
                 <Link
-                  to="/projects"
+                  to="/publications"
                   className="px-3 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition duration-300"
                 >
-                  Projects
+                  Publications
                 </Link>
                 <Link
                   to="/contact"
@@ -87,10 +87,10 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            to="/projects"
+            to="/publications"
             className="block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-700 transition duration-300"
           >
-            Projects
+            Publications
           </Link>
           <Link
             to="/contact"
