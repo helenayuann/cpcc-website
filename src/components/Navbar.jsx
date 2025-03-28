@@ -23,10 +23,16 @@ const Navbar = () => {
                   Home
                 </Link>
                 <Link
+                  to="/research"
+                  className="px-3 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition duration-300"
+                >
+                  Research
+                </Link>
+                <Link
                   to="/about"
                   className="px-3 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition duration-300"
                 >
-                  About
+                  About Us
                 </Link>
                 <Link
                   to="/publications"
@@ -81,10 +87,16 @@ const Navbar = () => {
             Home
           </Link>
           <Link
+            to="/research"
+            className="block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-700 transition duration-300"
+          >
+            Research
+          </Link>
+          <Link
             to="/about"
             className="block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-700 transition duration-300"
           >
-            About
+            About Us
           </Link>
           <Link
             to="/publications"
