@@ -78,22 +78,22 @@ const People = () => {
     }
   ];
 
-  const alumni = [
-    {
-      id: 1,
-      name: 'Dr. Maria Gonzalez',
-      year: '2022',
-      current: 'Quantum Engineer, Google Quantum AI',
-      research: 'Photon-atom interfaces'
-    },
-    {
-      id: 2,
-      name: 'Dr. David Park',
-      year: '2021',
-      current: 'Assistant Professor, MIT',
-      research: 'Topological quantum computing'
-    }
-  ];
+//   const alumni = [
+//     {
+//       id: 1,
+//       name: 'Dr. Maria Gonzalez',
+//       year: '2022',
+//       current: 'Quantum Engineer, Google Quantum AI',
+//       research: 'Photon-atom interfaces'
+//     },
+//     {
+//       id: 2,
+//       name: 'Dr. David Park',
+//       year: '2021',
+//       current: 'Assistant Professor, MIT',
+//       research: 'Topological quantum computing'
+//     }
+//   ];
 
   return (
     <div className="min-h-screen bg-gray-50">

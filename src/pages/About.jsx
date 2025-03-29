@@ -4,30 +4,30 @@ const About = () => {
   const teamMembers = [
     {
       id: 1,
-      name: 'Dr. Sarah Chen',
-      title: 'Director, Principal Investigator',
-      research: 'Quantum photonics, Integrated quantum circuits',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
-      email: 'schen@cpcc.edu',
-      category: 'faculty'
+      name: 'Prof. Prem Kumar',
+      title: 'Principal Investigator',
+      research: 'Optical communications, in particular, novel optical amplifiers and devices for terabits per second fiber-optic communications; quantum fiber-optics, in particular, generation and distribution of quantum entanglement over the fiber channel and quantum cryptography over fiber lines; nonlinear and quantum optics, in particular, applications of novel states of light such as squeezed and twin-beam states.',
+      image: 'https://cpcc.northwestern.edu/images/profkumar2009.png',
+      email: 'kumarp@northwestern.edu',
+      category: 'Director'
     },
     {
       id: 2,
-      name: 'Dr. Michael Rodriguez',
+      name: 'Prof. Gregory Kanter',
       title: 'Senior Research Scientist',
-      research: 'Quantum algorithms, Error correction',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
-      email: 'mrodriguez@cpcc.edu',
-      category: 'research'
+      research: 'Experimental quantum optics including the use of nonlinear frequency conversion for quantum measurements.',
+      image: 'https://cpcc.northwestern.edu/images/kanter.jpg',
+      email: 'gregorykanter@northwestern.edu',
+      category: 'Faculty'
     },
     {
       id: 3,
-      name: 'Dr. Priya Patel',
+      name: 'Prof. Kim Fook Lee',
       title: 'Materials Science Lead',
-      research: 'Topological materials, Superconducting qubits',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
-      email: 'ppatel@cpcc.edu',
-      category: 'research'
+      research: 'Fiber based entanglement source, optical communication, Wigner function.',
+      image: 'https://cpcc.northwestern.edu/images/kimfooklee.png',
+      email: 'kim.lee@northwestern.edu',
+      category: 'Faculty'
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ const About = () => {
       research: 'Quantum communication, Network protocols',
       image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
       email: 'jwilson@cpcc.edu',
-      category: 'students'
+      category: 'Graduate Students'
     }
   ];
 
@@ -130,9 +130,7 @@ const About = () => {
                   <div className="p-6">
                     <h3 className="text-lg font-bold text-gray-900">{member.name}</h3>
                     <p className="text-sm font-medium text-indigo-600">{member.title}</p>
-                    <p className="mt-2 text-sm text-gray-600 flex items-center">
-                      <FiBookOpen className="mr-1" /> {member.research}
-                    </p>
+                    <p className="mt-2 text-sm text-gray-600 flex items-center">{member.research}</p>
                     <div className="mt-4">
                       <a
                         href={`mailto:${member.email}`}

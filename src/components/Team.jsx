@@ -2,35 +2,31 @@ const Team = () => {
     const teamMembers = [
       {
         id: 1,
-        name: 'Dr. Sarah Chen',
-        role: 'Director, Quantum Photonics',
-        imageUrl:
-          'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        bio: 'Expert in quantum optics with over 15 years of experience in photonic quantum computing.',
+        name: 'Prof. Prem Kumar',
+        role: 'Principal Investigator',
+        imageUrl: 'https://cpcc.northwestern.edu/images/profkumar2009.png',
+        bio: 'A T & T Professor of Information Technology, Department of Electrical Engineering & Computer Science Professor, Department of Physics and Astronomy',
       },
       {
         id: 2,
-        name: 'Dr. Michael Rodriguez',
-        role: 'Senior Researcher',
-        imageUrl:
-          'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        bio: 'Specializes in quantum algorithms and error correction techniques.',
+        name: 'Prof. Gregory Kanter',
+        role: 'Senior Research Scientist',
+        imageUrl: 'https://cpcc.northwestern.edu/images/kanter.jpg',
+        bio: 'Research Associate Professor, Department of Electrical Engineering and Computer Science'
       },
       {
         id: 3,
-        name: 'Dr. Priya Patel',
-        role: 'Quantum Materials Scientist',
-        imageUrl:
-          'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        bio: 'Develops novel materials for quantum computing applications.',
+        name: 'Prof. Kim Fook Lee',
+        role: 'Materials Science Lead',
+        imageUrl: 'https://cpcc.northwestern.edu/images/kimfooklee.png',
+        bio: 'Research Professor, Electrical Engineering and Computer Science'
       },
       {
         id: 4,
-        name: 'Dr. James Wilson',
-        role: 'Quantum Communication Lead',
-        imageUrl:
-          'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        bio: 'Pioneer in quantum key distribution and secure communication protocols.',
+        name: 'James Wilson',
+        role: 'Faculty',
+        imageUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
+        bio: 'Developing metropolitan-scale quantum network testbeds and secure communication protocols.'
       },
     ];
   

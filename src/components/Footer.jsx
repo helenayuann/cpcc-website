@@ -47,7 +47,7 @@ const Footer = () => {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <a href="#" className="text-base text-indigo-200 hover:text-white">
+                    <a href="publications" className="text-base text-indigo-200 hover:text-white">
                       Publications
                     </a>
                   </li>
@@ -74,7 +74,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-base text-indigo-200 hover:text-white">
+                    <a href="people" className="text-base text-indigo-200 hover:text-white">
                       Team
                     </a>
                   </li>
@@ -115,7 +115,7 @@ const Footer = () => {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <a href="#" className="text-base text-indigo-200 hover:text-white">
+                    <a href="contact" className="text-base text-indigo-200 hover:text-white">
                       Contact Us
                     </a>
                   </li>
