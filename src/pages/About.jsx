@@ -1,4 +1,4 @@
-import { FiMail, FiGlobe, FiGithub, FiLinkedin, FiBookOpen } from 'react-icons/fi';
+import { FiMail } from 'react-icons/fi';
 
 const About = () => {
   const teamMembers = [
