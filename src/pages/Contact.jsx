@@ -32,7 +32,11 @@ const Contact = () => {
               <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
                 <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
                   <h3 className="text-lg font-medium text-gray-900">Send us a message</h3>
-                  <form className="mt-6 space-y-6">
+                  <form 
+                    className="mt-6 space-y-6"
+                    action="https://formsubmit.co/helenayuan2027@u.northwestern.edu"
+                    method="POST"
+                  >
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                         Name
@@ -116,7 +120,7 @@ const Contact = () => {
                         </svg>
                       </div>
                       <div className="ml-3">
-                        <p className="text-base text-gray-500">+1 (555) 123-4567</p>
+                        <p className="text-base text-gray-500">+1 (847) 491-2972</p>
                         <p className="text-sm text-gray-400">Mon-Fri 9am-5pm</p>
                       </div>
                     </div>
@@ -127,7 +131,7 @@ const Contact = () => {
                         </svg>
                       </div>
                       <div className="ml-3">
-                        <p className="text-base text-gray-500">info@cpcc-research.org</p>
+                        <p className="text-base text-gray-500">lana@ece.northwestern.edu</p>
                         <p className="text-sm text-gray-400">General inquiries</p>
                       </div>
                     </div>
@@ -139,8 +143,8 @@ const Contact = () => {
                         </svg>
                       </div>
                       <div className="ml-3">
-                        <p className="text-base text-gray-500">123 Quantum Way</p>
-                        <p className="text-base text-gray-500">Tech City, TC 12345</p>
+                        <p className="text-base text-gray-500">2145 Sheridan Road</p>
+                        <p className="text-base text-gray-500">Evanston, IL 60201</p>
                         <p className="text-sm text-gray-400">By appointment only</p>
                       </div>
                     </div>
@@ -195,7 +199,7 @@ const Contact = () => {
             <div className="mt-10">
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573036104!2d-73.9878446845938!3d40.74844047932799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.3178394117076!2d-87.67845232377746!3d42.05780617122262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fda9f1ce32d5f%3A0x2ed194bb956cab66!2sNorthwestern%20University%20Technological%20Institute!5e0!3m2!1sen!2sus!4v1746201817276!5m2!1sen!2sus"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}
