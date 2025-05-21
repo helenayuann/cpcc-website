@@ -20,14 +20,7 @@ const Team = () => {
         role: 'Materials Science Lead',
         imageUrl: 'https://cpcc.northwestern.edu/images/kimfooklee.png',
         bio: 'Research Professor, Electrical Engineering and Computer Science'
-      },
-      {
-        id: 4,
-        name: 'James Wilson',
-        role: 'Faculty',
-        imageUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
-        bio: 'Developing metropolitan-scale quantum network testbeds and secure communication protocols.'
-      },
+      }
     ];
   
     return (

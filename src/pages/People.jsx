@@ -1,4 +1,6 @@
-import { FiMail, FiGlobe, FiGithub, FiLinkedin, FiBookOpen } from 'react-icons/fi';
+import { FiMail, FiGlobe } from 'react-icons/fi';
+
+// per person: name, title, research area, image, email, website, bio, category, cv, github, etc.
 
 const People = () => {
   const teamMembers = [
@@ -34,47 +36,6 @@ const People = () => {
       website: 'https://quantum.cpcc.edu/ppatel',
       bio: 'Research Professor, Electrical Engineering and Computer Science',
       category: 'Faculty'
-    },
-    {
-      id: 4,
-      name: 'James Wilson',
-      title: 'PhD Candidate',
-      research: 'Quantum communication, Network protocols',
-      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
-      email: 'jwilson@cpcc.edu',
-      website: 'https://quantum.cpcc.edu/jwilson',
-      bio: 'Developing metropolitan-scale quantum network testbeds and secure communication protocols.',
-      category: 'Post-Doctoral Research Associates'
-    },
-    {
-      id: 5,
-      name: 'Emma Zhang',
-      title: 'Graduate Researcher',
-      research: 'Quantum machine learning, Hybrid algorithms',
-      image: 'https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
-      email: 'ezhang@cpcc.edu',
-      website: 'https://quantum.cpcc.edu/ezhang',
-      social: {
-        github: 'emma-quantml',
-        linkedin: 'emma-zhang-quantum'
-      },
-      bio: 'Focusing on quantum-classical hybrid algorithms for machine learning applications.',
-      category: 'Graduate Students'
-    },
-    {
-      id: 6,
-      name: 'Alex Kim',
-      title: 'Lab Manager',
-      research: 'Cryogenics, Experimental systems',
-      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
-      email: 'akim@cpcc.edu',
-      website: '',
-      social: {
-        github: '',
-        linkedin: 'alex-kim-quantum'
-      },
-      bio: 'Manages lab operations and maintains our cryogenic quantum measurement systems.',
-      category: 'Undergraduate Students'
     }
   ];
 

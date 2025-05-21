@@ -28,15 +28,6 @@ const About = () => {
       image: 'https://cpcc.northwestern.edu/images/kimfooklee.png',
       email: 'kim.lee@northwestern.edu',
       category: 'Faculty'
-    },
-    {
-      id: 4,
-      name: 'James Wilson',
-      title: 'PhD Candidate',
-      research: 'Quantum communication, Network protocols',
-      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80',
-      email: 'jwilson@cpcc.edu',
-      category: 'Graduate Students'
     }
   ];
 
