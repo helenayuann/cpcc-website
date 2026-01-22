@@ -20,6 +20,13 @@ const Team = () => {
         role: 'Materials Science Lead',
         imageUrl: 'https://cpcc.northwestern.edu/images/kimfooklee.png',
         bio: 'Research Professor, Electrical Engineering and Computer Science'
+      },
+      {
+        id: 4,
+        name: 'Dr. Gamze Gul',
+        role: 'Postdoctoral Researcher',
+        imageUrl: 'https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=0zYFVvwAAAAJ&citpid=10',
+        bio: 'Postdoctoral Researcher'
       }
     ];
   

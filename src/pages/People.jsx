@@ -36,6 +36,17 @@ const People = () => {
       website: 'https://quantum.cpcc.edu/ppatel',
       bio: 'Research Professor, Electrical Engineering and Computer Science',
       category: 'Faculty'
+    },
+    {
+      id: 4,
+      name: 'Dr. Gamze Gul',
+      title: 'Postdoctoral Researcher',
+      research: 'TBD',
+      image: 'https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=0zYFVvwAAAAJ&citpid=10',
+      email: 'gamze.gul@northwestern.edu',
+      website: 'https://urldefense.com/v3/__https://gamzegul.github.io/__;!!Dq0X2DkFhyF93HkjWTBQKhk!SWY8Pifs_U77gCuxwXC10638Tn7h1Gzohl1ogaaxSToGL0XnsoepIB5Ls_21OgNAZqcmBWgEzwCxlCSRtsWyQfBA0yCUTMGcHEwWX9He_w$',
+      bio: 'Gamze Gül received her Ph.D. in Applied Physics from Northwestern University in 2025, where she conducted research in Prof. Prem Kumar’s group on experimental quantum networking. Her doctoral work focused on Quantum Wrapper Networking (QWN) for polarization-entangled photon pairs, exploring how classical information bits can be leveraged to enable routing, monitoring, and control of quantum signals, and investigating noise mechanisms arising from their coexistence in optical fibers. Her work has been published in leading journals, including Optica Quantum, IEEE Journal of Lightwave Technology, and IEEE Communications Magazine, ​and she has presented her work at major international conferences, including the Optical Fiber Communication Conference (OFC), Quantum 2.0, Frontiers in Optics (FiO), and Europhoton. Her teaching efforts were recognized by the Northwestern University ECE department with the Best Teaching Assistant Award in 2021. She has contributed to professional service by serving as a technical program committee member for the Quantum Networking and Communications track at IEEE Quantum Week 2025 and the IEEE International Conference on Quantum Communications, Networking, and Computing (QCNC) 2026. In recognition of her contributions to optical communications research, she was awarded the 2025 Corning Women in Optical Communications Scholarship. Gamze earned her M.S. in Physics from Koç University in 2019 and her B.S. in Electrical and Electronics Engineering from Bilkent University in 2017, where she also completed a minor in Physics. She is an active member of Optica, IEEE, and the European Physical Society. Outside the lab, she practices yoga, plays tennis, and enjoys long walks with her dog, Toffee.',
+      category: 'Post-Doctoral Research Associates'
     }
   ];
 
