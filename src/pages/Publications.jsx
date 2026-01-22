@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiExternalLink, FiDownload, FiFilter } from 'react-icons/fi';
+import { FiExternalLink, FiFilter } from 'react-icons/fi';
 
 const Publications = () => {
   // Sample publication data - replace with your actual publications

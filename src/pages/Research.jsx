@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiExternalLink, FiGithub, FiArchive, FiUsers, FiBarChart2 } from 'react-icons/fi';
+import { FiExternalLink, FiGithub, FiUsers, FiBarChart2 } from 'react-icons/fi';
 
 const Research = () => {
   const [activeTab, setActiveTab] = useState('all');
